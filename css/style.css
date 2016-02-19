@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 10%;
+}
+
+/* Make the body 100% of the browser viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+h1 {
+    font-size: 2em;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.header-container {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* LOOK AT THE EASING FUNCTION */
