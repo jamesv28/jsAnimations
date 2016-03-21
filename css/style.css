@@ -306,20 +306,24 @@ nav {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     text-align: right;
-    z-index: 100; }
+    z-index: 100;
+}
 nav a {
     display: block;
     line-height: 25px;
     position: relative;
     padding-right: 20px;
     color: #ffffff;
-    text-decoration: none; }
+    text-decoration: none;
+}
+
 nav a:hover .nav-label {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
-    visibility: visible; }
+    visibility: visible;
+}
 nav .nav-dot {
     display: block;
     width: 10px;
@@ -333,7 +337,8 @@ nav .nav-dot {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-transition: all 0.3s linear;
-    transition: all 0.3s linear; }
+    transition: all 0.3s linear;
+}
 nav .nav-label {
     display: block;
     opacity: 0.5;
@@ -342,9 +347,12 @@ nav .nav-label {
     -ms-transform: translateX(-10px);
     transform: translateX(-10px);
     -webkit-transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
-    transition: all 0.2s cubic-bezier(.17, .67, .83, .67); }
+    transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
+}
+
 nav.is-dark a {
-    color: #212121; }
+    color: #212121;
+}
 nav.is-dark .nav-dot {
     background-color: rgba(0, 0, 0, 0.5); }
 nav.is-light a {
@@ -378,12 +386,14 @@ nav li {
 p {
     font-size: 16px; }
 
+/* V-- stands for full-size */
 .fs {
     height: 100vh; }
 
 .slide {
     color: #ffffff;
-    position: relative; }
+    position: relative;
+}
 .slide .wrapper {
     padding-top: 30px;
     text-align: center;
