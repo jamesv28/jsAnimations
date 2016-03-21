@@ -16,7 +16,7 @@ html {
 body {
     margin: 0; }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
     display: block; }
 
 audio, canvas, progress, video {
@@ -276,7 +276,7 @@ h1 {
 .header-container.is-loaded .bcg {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
-    transform: scale(1.);
+    transform: scale(1);
     /** Reverse of this like zooming in
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -297,7 +297,7 @@ h1 {
     background-image: url(../img/beach.jpg);
     background-size: cover; }
 #slide01 .bcg {
-    background: url(../img/hills.jpg) no-repeat center center;
+    background: url(../img/water.jpg) no-repeat center center;
     background-size: cover;
 }
 #slide02 .bcg {
