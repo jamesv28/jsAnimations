@@ -1,0 +1,7 @@
+section#four {
+  background-color: #00679a;
+  transition: all 0.4s linear; }
+  section#four.is-active {
+    background-color: #222222; }
+
+/*# sourceMappingURL=animate.css.map */

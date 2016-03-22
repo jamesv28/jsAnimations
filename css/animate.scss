@@ -1,0 +1,9 @@
+$blue: #0089cd;
+
+section#four {
+  background-color:  darken($blue, 10%);
+  transition: all 0.4s linear;
+  &.is-active {
+    background-color: #222222;
+  }
+}
