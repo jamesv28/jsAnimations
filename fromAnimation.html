@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+        }
+        .sky {
+            height: 100px;
+            background-color: skyblue;
+        }
+        .ground {
+            background: darkgray;
+            height: 40px;
+        }
+        .fa-motorcycle {
+            color: #333;
+            font-size: 50px;
+            margin-left: 30px;
+            margin-top: 60px;
+            line-height: 30px;
+            position: relative;
+            left: 600px;
+        }
+    </style>
+</head>
+<body>
+<div class="sky">
+    <i class="fa fa-motorcycle"></i>
+</div>
+<div class="ground">
+
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+<script>
+
+    var cycle = $('.fa-motorcycle');
+
+    /* define the beginning point */
+
+    TweenLite.from(cycle, 2, {
+        left: '0px'
+    });
+</script>
+</body>
+</html>

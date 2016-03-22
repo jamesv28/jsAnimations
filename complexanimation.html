@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complex Animations</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+        .letter {
+            font-family: 'Roboto', sans-serif;
+            font-size: 70px;
+            font-weight: 700;
+            color: #444;
+            display: inline-block;
+            position: relative;
+        }
+        .greensock {
+            text-align: center;
+        }
+        .red {
+            color: red;
+        }
+        .blue {
+            color: blue;
+        }
+        .yellow {
+            color: yellow;
+        }
+        .green {
+            color: green;
+        }
+        .purple {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+<div class="greensock">
+    <div class="letter red">G</div>
+    <div class="letter green">R</div>
+    <div class="letter blue">E</div>
+    <div class="letter yellow">E</div>
+    <div class="letter purple">N</div>
+    <div class="letter yellow">S</div>
+    <div class="letter blue">O</div>
+    <div class="letter green">C</div>
+    <div class="letter red">K</div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+<script>
+//    var letters = $('.letter');
+
+    var letter1 = $('.letter:nth-child(1)');
+    var letter2 = $('.letter:nth-child(2)');
+    var letter3 = $('.letter:nth-child(3)');
+    var letter4 = $('.letter:nth-child(4)');
+    var letter5 = $('.letter:nth-child(5)');
+    var letter6 = $('.letter:nth-child(6)');
+    var letter7 = $('.letter:nth-child(7)');
+    var letter8 = $('.letter:nth-child(8)');
+    var letter9 = $('.letter:nth-child(9)');
+
+    TweenLite.from(letter1,2,{
+    y: '-100px',
+    opacity: 0,
+        x: '100px'
+});
+    TweenLite.from(letter2,2,{
+    y: '100px',
+    opacity: 0
+});
+TweenLite.from(letter3,2,{
+    y: '-100px',
+    opacity: 0,
+    x: '100px'
+});
+TweenLite.from(letter6,2,{
+    y: '100px',
+    opacity: 0
+});
+TweenLite.from(letter4,2,{
+    y: '-100px',
+    opacity: 0,
+    x: '-100px'
+});
+TweenLite.from(letter5,2,{
+    y: '100px',
+    opacity: 0
+});
+TweenLite.from(letter7,2,{
+    y: '-100px',
+    opacity: 0,
+    x: '-100px'
+});
+TweenLite.from(letter8,2,{
+    y: '100px',
+    opacity: 0
+});
+TweenLite.from(letter9,2,{
+    y: '100px',
+    opacity: 0,
+    x: '50px'
+});
+</script>
+</body>
+</html>
